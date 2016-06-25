@@ -1,0 +1,146 @@
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Title of the document</title>
+	</head>
+
+<nav class="navbar transparent">
+<div class="container">
+<div class="navbar-brand"><a href="#"><img src="Logo.png"></a>
+ <button class="navbar-toggle" data-toggle="collapse" data-target="#navcollapse">
+
+ </button></div>
+<div class="collapse navbar-collapse" id="navcollapse">
+<ul class="nav navbar-nav navbar-right">
+    <li><a href="#">About</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="container">
+kandask
+</div>
+	
+	 <!-- <div id="navbar" >
+		<p id="firstElm">m <sup id ="power">02</sup></p>
+		<a id= "buy"> Buy Bow </a>
+		<a id = "free"> Get free trial</a>
+	</div> -->
+	<div id="mBox" >
+		<h2> Share Your Files With Ease</h2>
+		<h4> We push ourselves to new levels of inspired excellence with each project and we sweat creativity</h4>
+	</div>
+	
+	<div id="graph" >
+		<H1>Here is were the Graph will be </h1>
+	</div>
+	
+	<div id="mbox2" >
+		<h4> We push ourselves to new levels of inspired excellence with each<br> project and we sweat creativity. You won't see anything until we're done
+		droonling at the result </h4>
+		
+	</div>
+	
+	<br><br><br><br><hr>
+
+	</html>
+	<style>
+
+	.navbar-brand{
+		margin-top:50px;
+	}
+
+
+	#firstElm {
+		margin-left:20px;
+		font-size:20px;
+	  padding-top:none;
+		display:inline-block
+	}
+	#navbar > a:hover,#navbar > p:hover {
+
+		-o-transition: color 0.08s linear;
+		-moz-transition: color 0.8s linear;
+		-ms-transition: color 0.8s linear;
+		 transition: color 0.8s linear;
+		 color: #b50046;
+		 cursor:pointer;
+	}
+a#buy:hover,a#free:hover {
+		color: purple;
+		font-size: 130%;
+	}
+	#power{
+		font-size:10px;
+		margin-top:none;
+	}
+
+
+	#buy,#free {
+		float:right;
+		display:inline-block;
+	   padding: 15px 32px;
+		text-align: center;
+		font-size: 14px;
+		cursor: pointer;
+		border-radius: 12px;
+	}
+	
+	#buy{
+		margin-left:20px;
+		margin-right:20px;
+		border-style:groove;
+		border-color:blue;
+	}
+	#free{
+
+	padding-top:18px;
+	}
+	#mBox {
+		border-style:groove;
+		border:solid transparent;
+		width: 450px;
+		height: 150px;
+		text-align:center;
+		
+		margin:auto;
+		position: relative;
+		top: 80px;
+	}
+	
+	#graph {
+	text-align:center;
+		border-style:groove;
+		border-color:blue;
+		margin-top:40px;
+}
+	
+		#mbox2{
+		border-style:groove;
+		border-color:blue;
+		width: 480px;
+		height: 150px;
+		text-align:center;
+		top:80px;
+		margin:auto;
+		position: relative;
+		border:solid transparent;
+		}
+
+
+hr {
+color:light-gray;
+  width: 100%;
+}
+	</style>
